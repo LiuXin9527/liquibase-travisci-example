@@ -10,7 +10,7 @@ create table person (
     city varchar(30)
 )
 
---changeset Jack:1
+--changeset Jack:2
 --rollback DROP TABLE company;
 create table company (
     id int primary key,
